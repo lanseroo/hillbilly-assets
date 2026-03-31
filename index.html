@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hillbilly Racing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden; /* Stop scrolling */
+            background-color: #1a1a1a;
+        }
+        
+        /* The Magic Trick: Make the iframe 30px taller than the screen, and pull it up 30px! */
+        iframe {
+            position: absolute;
+            top: -30px; 
+            left: 0;
+            width: 100vw;
+            height: calc(100vh + 30px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbwWgtKFdz5TPdCNSWHOeGJYbv5HlCh_LkPQDa1gWxTXO4yEvrkQDLrksACz7konvE4v/exec"></iframe>
+</body>
+</html>
